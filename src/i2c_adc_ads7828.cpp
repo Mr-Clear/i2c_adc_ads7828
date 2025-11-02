@@ -230,7 +230,7 @@ uint16_t ADS7828Channel::total()
 /// \endcode
 uint8_t ADS7828Channel::update()
 {
-  device_->update(id());
+  return device_->update(id());
 }
 
 
